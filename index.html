@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Institute of Digital Risk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Inter', sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+line-height:1.6;
+}
+
+header{
+position:sticky;
+top:0;
+background:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #eee;
+z-index:1000;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:black;
+font-weight:500;
+}
+
+nav a:hover{
+color:#ff6b00;
+}
+
+.hero{
+background:#111;
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:600px;
+margin:auto;
+margin-bottom:25px;
+}
+
+.btn{
+background:#ff6b00;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:4px;
+}
+
+.btn:hover{
+background:#e55f00;
+}
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+font-size:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+padding:25px;
+border:1px solid #eee;
+border-radius:6px;
+background:white;
+}
+
+.card:hover{
+transform:translateY(-5px);
+transition:0.3s;
+}
+
+.community{
+text-align:center;
+max-width:800px;
+margin:auto;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+button{
+background:#ff6b00;
+color:white;
+border:none;
+padding:12px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e55f00;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h3>IDR</h3>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#community">Community</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<h1>Advancing the Future of Digital Risk</h1>
+
+<p>
+The Institute of Digital Risk (IDR) trains and deploys digital risk practitioners by combining academic collaboration with real-world industry practice.
+</p>
+
+<a class="btn" href="#services">Explore Programs</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About IDR</h2>
+
+<p>
+The Institute of Digital Risk (IDR) is an industry-led training and deployment institute focused on digital, cyber and technology risk roles in regulated and high-consequence environments.
+</p>
+
+<p>
+Through collaboration with academic partners and industry leaders, IDR bridges the gap between academic research and real-world implementation, enabling professionals to gain practical experience while organizations gain access to skilled digital risk talent.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Our Model</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Academy</h3>
+<p>
+Training programs and bootcamps for students and professionals in digital risk, cybersecurity, and technology governance.
+</p>
+</div>
+
+<div class="card">
+<h3>Innovation & Incubation</h3>
+<p>
+Developing new risk models, governance frameworks, and AI risk management solutions through research and collaboration.
+</p>
+</div>
+
+<div class="card">
+<h3>Advisory Services</h3>
+<p>
+Supporting organizations in implementing frameworks such as NIST, ISO 27001, and NIS2 compliance standards.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="community">
+
+<h2 class="section-title">Community</h2>
+
+<div class="community">
+
+<p>
+IDR serves students, early-career professionals, and experienced practitioners seeking to build careers in digital and cyber risk.
+</p>
+
+<p>
+Our programs are designed for sectors including financial services, government, and critical infrastructure organizations that require strong risk management and security expertise.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Register Interest</h2>
+
+<form>
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>© 2026 Institute of Digital Risk</p>
+
+</footer>
+
+</body>
+</html>
